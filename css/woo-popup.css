@@ -1,0 +1,283 @@
+
+/*** Slider Style **/
+.popup-slider-container {
+  height: 250px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.popup-menu {
+  position: absolute;
+  left: 0;
+  z-index: 900;
+  width: 100%;
+  bottom: 0;
+}
+.popup-menu label {
+  cursor: pointer;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50px;
+    margin: 0 .4em 1em;
+}
+.popup-menu label:hover {
+background: #bbb;
+}
+.popup-slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 10;
+  padding: 0em 0em 0;
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: left 0s .75s;
+}
+/*add-new-style*/
+
+#shopline-popup-boxes #mask {
+  position:fixed;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+  width:100%;
+  height:100%;
+}  
+#shopline-popup-boxes .product {
+    min-height: 520px;
+    width: 600px;
+    background:#fff;
+    position: fixed;
+    left: 0%;
+    right:0%;
+    margin:0 auto;
+    top: 20%;
+    display: none;
+    z-index: 9999;
+}
+#shopline-popup-boxes .product .header {
+    height: 40px;
+    position: relative;
+    padding: 20px 20px 0px;
+}
+
+#shopline-popup-boxes *{
+-webkit-box-sizing: initial;
+    -moz-box-sizing: initial;
+   box-sizing: initial;
+}
+
+#shopline-popup-boxes .product .header .back {
+    position: relative;
+    width: 0px;
+    height: 0px;
+    cursor: pointer;
+    border-top: 30px solid #e7c09c;
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid #e7c09c;
+    border-right: 30px solid transparent;
+}
+#shopline-popup-boxes .product .header .back:before {
+    content: "\f30a";
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.1rem;
+    font-weight: bold;
+    top: -22px;
+    left: -22px;
+    line-height: 30px;
+}
+#shopline-popup-boxes .product .main {
+    padding: 0 25px;
+    overflow-y:auto;
+    max-height:380px;
+}
+#shopline-popup-boxes .left {
+    float: left;
+}
+#shopline-popup-boxes .product .main .right p {
+    color: #999;
+    font-size: 14px;
+    line-height: 24px!important;
+    padding-bottom:12px;
+    
+}
+#shopline-popup-boxes .product .main .left, 
+#shopline-popup-boxes .product .main .right {
+    width: 43%;
+    padding: 0 calc(3% - 1px);
+}
+#shopline-popup-boxes .right {
+    float: right;
+}
+#shopline-popup-boxes .product .main h1 {
+   font-size: 26px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    margin: 0 0px 0px;
+    color: #080808;
+    line-height: 36px;
+    font-family: "Catamaran-Bold";
+}
+#shopline-popup-boxes .product .main h2 {
+    color: #999999;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    margin: 0 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 28px;
+}
+#shopline-popup-boxes .product .main h3 {
+    color: #232e3a;
+    margin: 0;
+}
+#shopline-popup-boxes .product .main img {
+    max-width: 100%;
+    margin-left: -25px;
+}
+#shopline-popup-boxes .product .main .quantity {
+    margin-top: 0px;
+}
+#shopline-popup-boxes .product .footer {
+    position: absolute;
+    bottom: 0;
+    padding: 5px 40px 5px 0;
+    width: calc(90% - 40px);
+    left: 10%;
+    border-top: 1px solid #ccc;
+}
+#shopline-popup-boxes .product .footer p {
+    color: #e7c09c;
+    position: relative;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+#shopline-popup-boxes .star-rating{
+float: initial;
+margin: 10px 0px;
+}
+#shopline-popup-boxes .star-rating span{
+color:#e7c09c;
+}
+
+#shopline-popup-boxes #price del{
+opacity:0.6;
+padding-right:10px;
+}
+#shopline-popup-boxes .added_to_cart{
+padding-top: 0em;
+font-size:14px;
+}
+#shopline-popup-boxes .head{
+    padding: 0 calc(3.6% - 1px);
+    padding-top: 12px;
+}
+#shopline-popup-boxes .head h2{
+padding-bottom:8px;
+}
+#shopline-popup-boxes .add_to_cart_button{
+margin-top: 10px;
+}
+.woocommerce #shopline-popup-boxes #respond input#submit.loading:after,
+.woocommerce #shopline-popup-boxes a.button.loading:after,
+.woocommerce #shopline-popup-boxes button.button.loading:after,
+.woocommerce #shopline-popup-boxes input.button.loading:after{
+top:1.3em!important;
+right:1em;
+font-size:14px;
+}
+.woocommerce #shopline-popup-boxes  a.button.added::after{
+font-size:14px;
+} 
+#shopline-popup-boxes .main::-webkit-scrollbar-track
+{
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+background-color: #F5F5F5;
+}
+
+#shopline-popup-boxes .main::-webkit-scrollbar
+{
+width: 6px;
+background-color: #F5F5F5;
+}
+
+#shopline-popup-boxes .main::-webkit-scrollbar-thumb
+{
+  background-color: #7c7c80;
+  border: 2px solid #555555;
+}
+ .woocommerce #shopline-popup-boxes div.product form.cart{
+margin:0;
+padding:0;
+float:left;
+}
+.woocommerce #shopline-popup-boxes .quantity .qty {
+    width: 3em;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    border-radius: 0px;
+    border: 1px solid #fff;
+    padding: 5px;
+    background-color: #fff;
+    text-indent: 5px;
+    margin-right:0px;
+}
+ #shopline-popup-boxes p.quantity{
+float:left;
+padding-right:10px;
+
+}        
+#shopline-popup-boxes .yith-wcwl-add-button.show a{
+font-size:0;
+display: block;
+padding-top: 3px;
+}
+#shopline-popup-boxes .yith-wcwl-add-button.show a i.fa{
+font-size:16px;
+font-weight: bold;
+margin-right:0px;
+letter-spacing: 0px;
+display: block;
+}
+#shopline-popup-boxes .yith-wcwl-add-to-wishlist {
+    margin-top: 0px;
+    position: absolute;
+    right: 40px;
+}
+#shopline-popup-boxes .yith-wcwl-wishlistaddedbrowse.show a:before, 
+#shopline-popup-boxes .yith-wcwl-wishlistexistsbrowse.show a:before{
+content: "\f004";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: bold;
+    color: #e7c09c;
+    font-size:16px;
+}
+#shopline-popup-boxes span.feedback, 
+#shopline-popup-boxes .yith-wcwl-add-button .ajax-loading{
+display:none!important;
+}
+
+[id^="popup-slide"]:checked + .popup-slide {
+  left: 0;
+  z-index: 100;
+  transition: left .65s ease-out;
+}
+@media (max-width: 768px){
+#shopline-popup-boxes #dialog{
+width:80%;
+}
+}
+@media (max-width: 600px){
+#shopline-popup-boxes{
+display:none;
+}
+}

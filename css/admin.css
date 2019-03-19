@@ -1,0 +1,99 @@
+.theme_info_right {
+    max-width: 500px;
+	width:100%;
+}
+.rcp {
+    background: #fff;
+    border-left: 4px solid #f8800c;
+    display: block;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    position: relative;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+.freeevspro-img {
+    margin-top: 50px;
+}
+.about-wrap img {
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+}
+.rcp img {
+    float: left;
+    display: block;
+    margin-right: 30px;
+    width: 10%;
+}
+p.rcp-detail {
+    display: block;
+	}
+.nav-tab-wrapper .update-plugins{
+    display: inline-block;
+    background-color: #d54e21;
+    color: #fff;
+    font-size: 9px;
+    line-height: 17px;
+    font-weight: 600;
+    margin: 1px 0 0 2px;
+    vertical-align: top;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    z-index: 26;
+  }
+
+.nav-tab-wrapper span.update-count {
+    display: block;
+       padding: 0 6px;
+}
+.svg .wp-badge{
+background-image: url('../inc/theme-setup/images/icon.png');
+}
+#setting-error-tgmpa{
+    display:none !important;
+}
+.notice.thunk-notice {
+    background:#fcf5fb;
+   color: #996097;
+text-align:center;
+    padding: 25px 10px !important;
+	border: 8px solid #fff;
+	position: relative;
+	 box-shadow: none;
+}
+.notice.thunk-notice .button-hero{
+background:#FF6E24;
+box-shadow: 0 2px 0 #d65818!important;
+border-color: #FF6E24 #FF6E24 #FF6E24;
+    box-shadow: 0 1px 0 #FF6E24;
+    text-shadow: 0 -1px 1px #FF6E24, 1px 0 1px #FF6E24, 0 1px 1px #FF6E24, -1px 0 1px #FF6E24;
+margin-top:15px;
+}
+.notice.thunk-notice .button-hero:hover{
+background:#ff955f;
+border-color: #FF6E24 #FF6E24 #FF6E24;
+}
+@media (min-width: 768px){
+.theme_link {
+    width: 23%;
+    display: inline-block;
+    float: left;
+   padding: 1%;
+}
+
+.theme_demo {
+    width: 46%;
+    display: inline-block;
+    float: left;
+   padding: 1%;
+}
+
+.about-wrap .theme_demo img{
+    margin-top: 15px;
+}
+}

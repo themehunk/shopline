@@ -1,0 +1,75 @@
+#customize-controls .control-section-shopline-1 .accordion-section-title:hover,
+#customize-controls .control-section-shopline-1 .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.control-section-shopline-1 .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+}
+.rtl .control-section-shopline-1 .accordion-section-title .button {
+		margin-left:  0;
+		margin-right: 8px;
+}
+
+a.button.pro-button-secondary.alignright {
+    background:#FF6E24;
+    color: white;
+    border: 1px;
+}
+#customize-theme-controls #accordion-section-section_default_home:hover>.accordion-section-title:after,
+#customize-theme-controls #accordion-section-section_default_home:focus>.accordion-section-title:after{
+    color:#FF6E24;
+}
+ #accordion-section-section_default_home .accordion-section-title:after {
+    color: #fff;
+}
+#customize-control-default_home a.button-primary{
+background: #FF6E24;
+color: white;
+border: 1px;
+text-shadow:none;
+box-shadow:none;
+}
+/*Home Page Settings */
+
+li#accordion-section-section_default_home h3{
+background: #4fd1cd!important;
+    color: #fff!important;
+    border-left-color: #4fd1cd!important;
+}
+.button-large.flactvate{ display:none; }
+
+.flactvate-activating{
+  color:#f7a205;
+  margin-top: 15px;
+  display:none;
+  float: right;
+}
+.loader {
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #1b619d;
+  width: 20px;
+  height: 20px;
+  -webkit-animation: spin 1s linear infinite; /* Safari */
+  animation: spin 1s linear infinite;
+    float: right;
+    margin-top: 10px;
+    display: none;
+      margin-left:5px;
+
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+

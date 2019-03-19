@@ -1,0 +1,74 @@
+== Changelog ==
+= Version: 1.2.3 =
+* compatible with latest wordpress.
+
+= Version: 1.2.2 =
+* Blog link issue fixed.
+
+= Version: 1.2.1 =
+* Style improved
+
+= Version: 1.2.0 =
+* Customizer default popup has been removed.
+
+= Version: 1.1.9 =
+* screenshot changed.
+
+= Version: 1.1.8 =
+* style compability issue fixed.
+
+= Version: 1.1.7 =
+* parallax chrome issue fixed.
+= Version: 1.1.6 =
+* Theme issue fixed.
+
+= Version: 1.1.5 =
+* Bug fixed.
+
+= Version: 1.1.4 =
+* Style improved.
+
+= Version: 1.1.3 =
+* Style improved.
+
+= Version: 1.1.2 =
+* 404.php page included.
+* Prefix issue fixed.
+* styling issue fixed.
+
+= Version: 1.1.1 =
+* Header Image issue fixed.
+
+= Version: 1.1.0 =
+* Issue Fixed.
+
+= Version: 1.0.9 =
+* Issue Fixed.
+* Style Improved.
+
+= Version: 1.0.8 =
+* Customize Panel Improve.
+* Hero Slider Add.
+
+= Version: 1.0.7 =
+* Removed required plugins.
+* Docs link issue fixed.
+* Header text color issue fixed.
+
+= Version: 1.0.6 =
+* Style Improved.
+
+= Version: 1.0.5 =
+* Bug Fix.
+
+= Version: 1.0.4 =
+* Style improved
+
+= Version: 1.0.3 =
++ Typography 
+
+= Version: 1.0.2 =
+* Home page section improved
+
+= Version: 1.0.0 =
+Theme Released
