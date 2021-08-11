@@ -8,6 +8,7 @@
     <?php wp_head(); ?>
   </head>
   <body id="shopmain" <?php body_class('index woocommerce'); ?> >
+    <?php wp_body_open();?> 
     <div class="overlayloader">
       <div class="pre-loader">&nbsp;</div>
     </div>
@@ -59,7 +60,7 @@
             <?php endif;
             $description = get_bloginfo( 'description', 'display' );
             if ( $description || is_customize_preview() ) : ?>
-            <p class="site-description"><?php echo esc_attr($description); ?></p>
+            <p class="site-description"><?php echo esc_html($description); ?></p>
             <?php endif; } ?>
           </div>
           <!-- Start Mega-Menu       -->

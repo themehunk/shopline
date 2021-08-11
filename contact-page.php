@@ -38,7 +38,7 @@ $layout = shopline_get_layout();?>
 								</a>
 							</div>
 							<div class="contact-info">
-								<a href="tel:<?php echo esc_attr($contact_tel); ?>"><?php echo esc_attr($contact_tel);?></a>
+								<a href="tel:<?php echo esc_attr($contact_tel); ?>"><?php echo esc_html($contact_tel);?></a>
 							</div>
 						</li>
 						<?php } ?>
@@ -50,7 +50,7 @@ $layout = shopline_get_layout();?>
 								
 							</div>
 							<div class="contact-info">
-								<p><?php echo esc_attr($contact_add);?></p>
+								<p><?php echo esc_html($contact_add);?></p>
 							</div>
 						</li>
 						<?php } ?>
@@ -62,7 +62,7 @@ $layout = shopline_get_layout();?>
 								
 							</div>
 							<div class="contact-info">
-								<p><?php echo esc_attr($contact_time);?></p>
+								<p><?php echo esc_html($contact_time);?></p>
 							</div>
 						</li>
 						<?php } ?>

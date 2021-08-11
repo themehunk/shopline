@@ -10,6 +10,7 @@
 	require get_parent_theme_file_path('/inc/admin.php');
 	require get_parent_theme_file_path('/inc/breadcrumb.php');	
     require get_parent_theme_file_path('/inc/widget.php');
+    require get_parent_theme_file_path('/inc/woocommerce.php');
 	//customizer
 	require get_parent_theme_file_path('/customizer/customizer.php');
 	require get_parent_theme_file_path('/customizer/pro-button/class-customize.php' );

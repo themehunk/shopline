@@ -9,7 +9,7 @@ if (have_posts()) : while (have_posts()) : the_post(); ?>
 		</a>
 	</div>
 	<div class="post-caption">
-		<div class="post-date"><?php echo esc_attr(get_the_time('M, d, Y')); ?></div>
+		<div class="post-date"><?php echo esc_html(get_the_time('M, d, Y')); ?></div>
 		<div class="post-cat"><span class="separator"><?php echo shopline_separator(); ?></span><?php the_category(' / '); ?> </div>
 	</div>
 	<a href="<?php esc_url(the_permalink()); ?>"><h3><?php the_title();  ?></h3></a>

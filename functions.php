@@ -22,7 +22,7 @@ add_image_size( 'shopline-custom-blog', 374, 280, true );
     add_theme_support( 'html5', array(
         'search-form', 'comment-form', 'comment-list', 'gallery', 'caption'
     ) );
-    // Add support for Block Styles.
+        // Add support for Block Styles.
         add_theme_support( 'wp-block-styles' );
 
         // Add support for full and wide align images.
@@ -35,6 +35,8 @@ add_image_size( 'shopline-custom-blog', 374, 280, true );
         add_editor_style( 'style-editor.css' );
         // Add support for responsive embedded content.
         add_theme_support( 'responsive-embeds' );
+        //remove widegt block
+        remove_theme_support( 'widgets-block-editor' );
     /*
     /*
    * Let WordPress manage the document title.
@@ -108,7 +110,6 @@ function shopline_is_woocommerce_activated() {
 }
 
 require_once get_parent_theme_file_path('/inc/include.php');
-require get_parent_theme_file_path('/demo/import-data.php');
 
 
 // google-font-call
@@ -152,7 +153,8 @@ if($shopline_animation_disable =='' || $shopline_animation_disable =='0'):
 wp_enqueue_style( 'animate', get_parent_theme_file_uri( '/css/animate.css'), array(), '1.0.0' );
 endif;
 wp_enqueue_style( 'shopline_fonts', shopline_fonts_url(), array(), '1.0.0' );
-wp_enqueue_style( 'font-awesome', get_parent_theme_file_uri( '/font-awesome/css/fontawesome-all.css'), array(), '1.0.0' );
+wp_enqueue_style( 'font-new-awesome', get_parent_theme_file_uri( '/font-awesome/css/fontawesome-all.css'), array(), '1.0.0' );
+wp_enqueue_style( 'font-old-awesome', get_parent_theme_file_uri( '/font-awesome/css/font-awesome.css'), array(), '1.0.0' );
 wp_enqueue_style( 'menu-css', get_parent_theme_file_uri( '/css/menu-css.css'), array(), '1.0.0' );
 wp_enqueue_style( 'flexslider', get_parent_theme_file_uri( '/css/flexslider.css'), array(), '1.0.0' ); 
 wp_enqueue_style( 'woo-popup', get_parent_theme_file_uri( '/css/woo-popup.css'), array(), '1.0.0' );
@@ -191,3 +193,13 @@ wp_enqueue_script( 'flexslider', get_parent_theme_file_uri( '/js/flexslider.js')
    }
 }
 add_action( 'wp_enqueue_scripts', 'shopline_scripts' );
+
+if ( ! function_exists( 'wp_body_open' ) ) {
+
+  /**
+   * Shim for wp_body_open, ensuring backward compatibility with versions of WordPress older than 5.2.
+   */
+  function wp_body_open() {
+    do_action( 'wp_body_open' );
+  }
+}

@@ -2,8 +2,9 @@
 Contributors: ThemeHunk
 Tags: right-sidebar, theme-options, custom-menu, custom-logo, editor-style, featured-images, translation-ready, flexible-header, threaded-comments, e-commerce, footer-widgets
 Requires at least: 4.0
-Tested up to: 5.0.3
-Stable tag: 1.2.3
+Tested up to: 5.7.2
+Stable tag: 1.3.7
+Requires PHP: 5.2.4
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -23,6 +24,51 @@ Yes, we have created our theme in such a way that it can support almost all plug
 Yes, all our theme works on multisite.
 
 == Changelog ==
+= Version: 1.3.7 =
+* widgets-block-editor issue fixed.
+
+= Version: 1.3.6 =
+* Theme Support link changed.
+
+= Version: 1.3.5 =
+* Contact Template issue fixed.
+* Translation issue fixed.
+
+= Version: 1.3.4 =
+* Styling Issue Fixed.
+
+= Version: 1.3.3 =
+* Escaping Issue Fixed.
+
+= Version: 1.3.2 =
+* Translation Issue Fixed.
+
+= Version: 1.3.1 =
+* Translation Issue Fixed.
+
+= Version: 1.3.0 =
+* Improved icon compatibility with Elementor.
+
+= Version: 1.2.9 =
+* whislist plugin Issue resolved.
+
+= Version: 1.2.8 =
+* Languages file issue resolved.
+
+= Version: 1.2.7 =
+* Inner page header Issue resolved.
+
+= Version: 1.2.6 =
+* Demo Issue resolved.
+* Google + icon removed.
+* Youtube icon added.
+
+= Version: 1.2.5 =
+* Demo Import Issue Resolve.
+
+= Version: 1.2.4 =
+* Copyright Option Remove.
+
 = Version: 1.2.3 =
 * compatible with latest wordpress.
 
@@ -99,8 +145,9 @@ Theme Released
 
 == Upgrade Notice ==
 
-= 1.2.3 =
-* compatible with latest wordpress.
+= Version: 1.3.6 =
+* Theme Support link changed.
+
 
 == Resources ==
 

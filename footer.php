@@ -41,24 +41,26 @@
         </div>
         <div class="footer-bottom">
           <div class="footer-bottom-left" >
-            <div class="copy-right">
-          <?php
-          $cprtxt = get_theme_mod('copyright_text','');
-          if($cprtxt !=''){ ?>
-          <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php echo esc_html($cprtxt); ?></a>
-          <?php } else { ?>
+            <div class="copy-right">   
         <span class="text-footer">
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-        <a href="<?php echo esc_url('//themehunk.com/'); ?>"><?php printf( esc_html__('Powered by %s', 'shopline' ), 'ThemeHunk' ); ?></a>
-      </span>
-          <?php } ?>
+        <?php bloginfo('name'); ?> | 
+                 <?php
+                 /* translators: %s: WordPress. */
+                  printf( __( 'Powered by %s.', 'shopline' ), 'WordPress' );
+                 ?>
+                 </span>
+            <a href="<?php echo esc_url( __( 'https://themehunk.com/product/shopline-free-shopping-theme/', 'shopline' ) ); ?>" target="_blank">
+               <?php printf( __( 'Designed by %s', 'shopline' ), 'Themehunk' ); ?>
+                    </a> 
+      
+         
         </div>
           </div>
           <div class="footer-bottom-right">
             <?php
             $fb = get_theme_mod('social_link_facebook','');
             $tw = get_theme_mod('social_link_twitter','');
-            $go = get_theme_mod('social_link_google','');
+            $go = get_theme_mod('social_link_youtube','');
             $ln = get_theme_mod('social_link_linkedin','');
             $pntr = get_theme_mod('social_link_pintrest','');
             if($fb !='' || $go !='' || $ln !='' || $pntr !=''|| $tw !=''):
@@ -73,7 +75,7 @@
               <li class="ft-tw"><a href="<?php echo esc_url($tw); ?>"><i class="fab fa-twitter"></i></a></li>
               <?php } ?>
               <?php if($go!='') {?>
-              <li class="ft-gm"><a href="<?php echo esc_url($go); ?>"><i class="fab fa-google-plus-g"></i></a></li>
+              <li class="ft-gm"><a href="<?php echo esc_url($go); ?>"><i class="fab fa-youtube"></i></a></li>
               <?php } ?>
               <?php if($ln!='') {?>
               <li class="ft-ln"><a href="<?php echo esc_url($ln); ?>"><i class="fab fa-linkedin-in"></i></a></li>

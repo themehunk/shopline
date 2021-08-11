@@ -227,7 +227,7 @@ function shopline_tab_config($theme_data){
         'customizer_button' => sprintf( esc_html__('Start Customize', 'shopline')),
 
         'support_title' => esc_html__( 'Step 3 - Theme Support', 'shopline' ),
-        'support_link' => esc_url('//www.themehunk.com/support/'),
+        'support_link' => esc_url('https://www.support.themehunk.com/'),
         'support_forum' => sprintf(esc_html__('Support Forum', 'shopline'), $theme_data->get( 'Name' )),
         'doc_link' => esc_url('//www.themehunk.com/docs/shopline-theme/'),
         'doc_link_text' => sprintf(esc_html__('Theme Documentation', 'shopline'), $theme_data->get( 'Name' )),
@@ -304,7 +304,7 @@ add_action('admin_menu', 'shopline_tab');
 // pro theme
 function shopline_pro_theme(){ ?>
 <div class="freeevspro-img">
-<img src="<?php echo get_template_directory_uri(); ?>/inc/theme-setup/images/free-pro.png" alt="free vs pro" />
+<img src="<?php echo esc_url(get_template_directory_uri().'/inc/theme-setup/images/free-pro.png')?>" alt="free vs pro" />
 <p>
 <a href="//themehunk.com/product/shopline-pro-multipurpose-shopping-theme/" target="_blank" class="button button-primary"><?php esc_html_e('Check Pro version for more features','shopline'); ?></a>
 </p></div>
@@ -336,7 +336,7 @@ function shopline_demo_import(){ ?>
               <p><?php esc_html_e( 'Plugin installed and active!', 'shopline' ); ?></p>
               <a class="button button-primary button-large" href="<?php echo admin_url( 'themes.php?page=pt-one-click-demo-import.php' ); ?>"><?php esc_html_e( 'Go to the automatic importer', 'shopline' ); ?></a>
             <?php endif;  ?>
-   <img src="<?php echo get_template_directory_uri(); ?>/inc/theme-setup/images/demo-import.png" />
+   <img src="<?php echo esc_html(get_template_directory_uri().'/inc/theme-setup/images/demo-import.png')?>" />
   </p>
 </div>
 <?php }

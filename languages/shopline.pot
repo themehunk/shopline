@@ -1,0 +1,1097 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Shopline\n"
+"POT-Creation-Date: 2020-10-22 17:55+0530\n"
+"PO-Revision-Date: 2020-10-22 17:54+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:21
+msgid "Not Found"
+msgstr ""
+
+#: 404.php:25
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:327 inc/plugin-install.php:47
+msgid "Install Required Plugins"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:328 inc/plugin-install.php:48
+msgid "Install Plugins"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:330 inc/plugin-install.php:49
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:333 inc/plugin-install.php:50
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:336 inc/plugin-install.php:51
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:342 inc/plugin-install.php:52
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:348 inc/plugin-install.php:57
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:360 inc/plugin-install.php:54
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:366 inc/plugin-install.php:55
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:371 inc/plugin-install.php:59
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:381 inc/plugin-install.php:60
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:385 inc/plugin-install.php:61
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:386 class-tgm-plugin-activation.php:827
+#: class-tgm-plugin-activation.php:2533 class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:387 class-tgm-plugin-activation.php:3159
+#: inc/plugin-install.php:62
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:388 class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:934 class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1121 class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3509 class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3509 class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: comments.php:8
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: comments.php:11
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:17
+msgid "No Responses"
+msgstr ""
+
+#: comments.php:17
+msgid "Comments..."
+msgstr ""
+
+#: comments.php:17
+msgid "% Responses"
+msgstr ""
+
+#: comments.php:35
+msgid "Comments are closed."
+msgstr ""
+
+#: contact-page.php:75
+msgid "Activate Lead Form Builder Plugin"
+msgstr ""
+
+#: content-none.php:7
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:9
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:12
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:16
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content.php:35 page.php:35
+msgid "Pages:"
+msgstr ""
+
+#: content.php:39
+msgid "Page"
+msgstr ""
+
+#: customizer/customizer.php:28
+msgid "One click Homepage Setup"
+msgstr ""
+
+#: customizer/customizer.php:42
+msgid "General Settings"
+msgstr ""
+
+#: customizer/pro-button/class-customize.php:75
+msgid "Shopline Pro Theme"
+msgstr ""
+
+#: customizer/pro-button/class-customize.php:76
+msgid "Buy Pro"
+msgstr ""
+
+#: footer.php:49
+#, php-format
+msgid "Powered by %s."
+msgstr ""
+
+#: footer.php:52
+msgid "https://themehunk.com/product/shopline-free-shopping-theme/"
+msgstr ""
+
+#: footer.php:53
+#, php-format
+msgid "Designed by %s"
+msgstr ""
+
+#: footer.php:70
+msgid "FOLLOW US"
+msgstr ""
+
+#: functions.php:78 inc/plugin-install.php:17
+msgid "ThemeHunk Customizer"
+msgstr ""
+
+#: functions.php:82
+msgid "Woocommerce"
+msgstr ""
+
+#: functions.php:86 inc/plugin-install.php:25
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: functions.php:90 inc/plugin-install.php:29
+msgid "Lead Form Builder"
+msgstr ""
+
+#: functions.php:93 inc/plugin-install.php:33
+msgid "Crelly Slider"
+msgstr ""
+
+#: functions.php:96
+msgid "One Click Demo Import"
+msgstr ""
+
+#: functions.php:121
+msgctxt "Catamaran font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:122
+msgctxt "Catamaran Slab font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/admin.php:22
+msgid "FrontPage Menu"
+msgstr ""
+
+#: inc/admin.php:23
+msgid "Main Menu"
+msgstr ""
+
+#: inc/admin.php:24
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/admin.php:73 inc/admin.php:74
+msgid "%title"
+msgstr ""
+
+#: inc/admin.php:110
+msgid "|"
+msgstr ""
+
+#: inc/breadcrumb.php:219
+msgid "Browse:"
+msgstr ""
+
+#: inc/breadcrumb.php:220
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/breadcrumb.php:221 inc/theme-setup/shopline-theme.php:104
+msgid "Home"
+msgstr ""
+
+#: inc/breadcrumb.php:222
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/breadcrumb.php:223
+msgid "Archives"
+msgstr ""
+
+#: inc/breadcrumb.php:225
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/breadcrumb.php:227
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/breadcrumb.php:229
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: inc/breadcrumb.php:231
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: inc/breadcrumb.php:683
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/breadcrumb.php:700
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/breadcrumb.php:717
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: inc/breadcrumb.php:733 inc/breadcrumb.php:762 inc/breadcrumb.php:789
+#: inc/breadcrumb.php:816 inc/breadcrumb.php:1156
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/breadcrumb.php:734 inc/breadcrumb.php:790 inc/breadcrumb.php:1160
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/breadcrumb.php:735 inc/breadcrumb.php:1164
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/breadcrumb.php:763
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: inc/plugin-install.php:21
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/plugin-install.php:53
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugin-install.php:56
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugin-install.php:58
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugin-install.php:63
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:26
+msgid "Install Plugin & Setup Homepage"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:50 inc/theme-setup/shopline-theme.php:80
+msgid "Setup Homepage"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:156
+#, php-format
+msgid "Welcome to %1$s - Version %2$s"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:162
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing %1$s! To fully take advantage of the best "
+"our theme can offer please make sure you visit our <a href=\"%2$s\">Welcome "
+"page</a>"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:170
+#, php-format
+msgid "Get started with %s"
+msgstr ""
+
+#. Author of the plugin/theme
+#: inc/theme-setup/shopline-theme.php:205
+msgid "ThemeHunk"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:207
+#, php-format
+msgid "Welcome to Shopline - Version %1s"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:208
+msgid ""
+"Shopline is a full featured E-commerce WordPress theme build specially for "
+"WooCommerce. This theme has a clean, modern and selling oriented design "
+"which is suitable for creating any type of online store, fashion website and "
+"many more. Theme comes with one click setup, Section hide option, Section "
+"ordering (drag & drop functionality), which makes it more user-friendly."
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:209
+#: inc/theme-setup/shopline-theme.php:293
+msgid "Get Started with Shopline"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:210
+msgid "Recommended Actions"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:211
+msgid "Free VS Pro"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:212
+msgid "Demo Import"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:214
+msgid "Step 1 - Do recommended actions"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:216
+msgid ""
+"Firstly do all recommended actions it will help you set up your site easily."
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:217
+msgid ""
+"Activate ThemeHunk Customizer plugin (It will enable lots of customizer "
+"option like hero header slider and activate all frontpage sections)\n"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:220
+msgid "Go To Recommended Action"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:221
+msgid "Step 2 - Configure Homepage Layout"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:223
+msgid "Configuration Instructions (with video)"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:225
+msgid "Step 2 - Home Page Setup"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:226
+#, php-format
+msgid ""
+"%s Theme comes with one click home page setup. If you have installed all "
+"required plugins suggested in the \"Recommended Actions\" then click this "
+"button to set up home page."
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:227
+msgid "Start Customize"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:229
+msgid "Step 3 - Theme Support"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:231
+msgid "Support Forum"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:233
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:235
+msgid ""
+"If you need any help you can contact to our support team, our team is always "
+"ready to help you."
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:236
+msgid "Create a support ticket"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:296
+#, php-format
+msgid "Get Started with Shopline %s"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: inc/theme-setup/shopline-theme.php:300
+msgid "Shopline"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:309
+msgid "Check Pro version for more features"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:317
+msgid "Step 1"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:318
+msgid ""
+"Before importing demo content please make confirm that you have installed "
+"(WooCommerce & ThemeHunk Customizer ) plugin. This will help importer to "
+"import complete demo data."
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:320
+msgid "Install Recommended Plugin"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:325
+msgid "Step 2"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:326
+msgid ""
+"Click \"One Click Install\" button, Install the  plugin and then go to the "
+"Appearance > Import Demo Data and click \"Import Demo Data\" button."
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:332
+msgid "One Click Install"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:333
+msgid "Go to the importer"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:336
+msgid "Plugin installed and active!"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:337
+msgid "Go to the automatic importer"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:407
+msgid "Activating homepage..."
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:407
+msgid "It may take few seconds..."
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:441
+#, php-format
+msgid "You're using %1$s theme, It's a child theme"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:443
+msgid ""
+"Child theme uses it's own theme setting name, would you like to copy setting "
+"data from parent theme to this child theme?"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:449
+msgid "From Theme"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:455
+msgid "To Theme"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:463
+msgid "Copy now"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:466
+msgid "Your settings copied."
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:474
+msgid "Please do all recommend action"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:536
+msgid "Install Now"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:558
+msgid "Active Now"
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:580
+msgid ""
+"ThemeHunk customizer - ThemeHunk customizer plugin will allow you to add  "
+"unlimited number of columns for services, Testimonial, and Team with widget "
+"support. It will add slider section, Ribbon section, latest post, Contact us "
+"and Woocommerce section. These will be visible on front page of your site."
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:582
+msgid ""
+"WooCommerce is a free eCommerce plugin that allows you to sell anything, "
+"beautifully. Built to integrate seamlessly with WordPress, WooCommerce is "
+"the eCommerce solution that gives both store owners and developers complete "
+"control."
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:584
+msgid ""
+"YITH WooCommerce Wishlist allows you to add Wishlist functionality to your e-"
+"commerce."
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:586
+msgid ""
+"Lead form builder is a contact form as well as lead generator plugin. This "
+"plugin will allow you create unlimited contact forms and to generate "
+"unlimited leads on your site."
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:588
+msgid ""
+"Crelly Slider is a Free / Open Source responsive WordPress slider that "
+"supports layers. You can add Texts, Images, YouTube/Vimeo videos using a "
+"powerful Drag & Drop Builder and animate each of them."
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:590
+msgid ""
+"The best feature of this plugin is, that theme authors can define import "
+"files in their themes and so all you (the user of the theme) have to do is "
+"click on the \"Import Demo Data\" button."
+msgstr ""
+
+#: inc/theme-setup/shopline-theme.php:598
+msgid "Details"
+msgstr ""
+
+#: inc/widget.php:5
+msgid "Primary Sidebar"
+msgstr ""
+
+#: inc/widget.php:7
+msgid "Main sidebar that appears on the left."
+msgstr ""
+
+#: inc/widget.php:16
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: inc/widget.php:18
+msgid "Appears in the first footer section of the site."
+msgstr ""
+
+#: inc/widget.php:26
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: inc/widget.php:28
+msgid "Appears in the Second footer section of the site."
+msgstr ""
+
+#: inc/widget.php:37
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: inc/widget.php:39
+msgid "Appears in the Third footer section of the site."
+msgstr ""
+
+#: inc/widget.php:48
+msgid "Fourth Footer Widget Area"
+msgstr ""
+
+#: inc/widget.php:50
+msgid "Appears in the Fourth footer section of the site."
+msgstr ""
+
+#: inc/widget.php:59
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: inc/widget.php:61
+msgid "Add widgets to display at WooCommerce pages."
+msgstr ""
+
+#: inc/woocommerce.php:178
+msgid "FEATURED PRODUCT"
+msgstr ""
+
+#: inc/woocommerce.php:446
+msgid "Sale"
+msgstr ""
+
+#: inc/woocommerce.php:467
+msgid "Sorry, The post you are looking is unavailable!"
+msgstr ""
+
+#: inc/woocommerce.php:714
+msgid "My Account"
+msgstr ""
+
+#: inc/woocommerce.php:714
+msgid "Account"
+msgstr ""
+
+#: inc/woocommerce.php:718
+msgid "Login / Register"
+msgstr ""
+
+#: inc/woocommerce.php:719
+msgid "Register"
+msgstr ""
+
+#: inc/woocommerce.php:731
+msgid "Checkout"
+msgstr ""
+
+#: loop.php:18
+msgid "Read more"
+msgstr ""
+
+#: loop.php:28
+msgid "sorry no post matched your criteria!"
+msgstr ""
+
+#: searchform.php:3
+msgctxt "placeholder"
+msgid "Search"
+msgstr ""
+
+#: searchform.php:4
+msgctxt "text"
+msgid "Search"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://themehunk.com/product/shopline-free-shopping-theme/"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "www.themehunk.com"
+msgstr ""

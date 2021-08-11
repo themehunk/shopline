@@ -236,12 +236,12 @@ float:left;
 padding-right:10px;
 
 }        
-#shopline-popup-boxes .yith-wcwl-add-button.show a{
+#shopline-popup-boxes .yith-wcwl-add-button a{
 font-size:0;
 display: block;
 padding-top: 3px;
 }
-#shopline-popup-boxes .yith-wcwl-add-button.show a i.fa{
+#shopline-popup-boxes .yith-wcwl-add-button a i.fa{
 font-size:16px;
 font-weight: bold;
 margin-right:0px;
@@ -253,8 +253,8 @@ display: block;
     position: absolute;
     right: 40px;
 }
-#shopline-popup-boxes .yith-wcwl-wishlistaddedbrowse.show a:before, 
-#shopline-popup-boxes .yith-wcwl-wishlistexistsbrowse.show a:before{
+#shopline-popup-boxes .yith-wcwl-wishlistaddedbrowse a:before, 
+#shopline-popup-boxes .yith-wcwl-wishlistexistsbrowse a:before{
 content: "\f004";
     font-family: 'Font Awesome 5 Free';
     font-weight: bold;
