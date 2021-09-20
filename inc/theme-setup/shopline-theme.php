@@ -274,6 +274,9 @@ function shopline_count_active_plugins() {
        if(shortcode_exists( 'crellyslider' )) :
            $i--;
        endif;
+       if(shortcode_exists( 'th-aps' )) :
+           $i--;
+       endif;
        return $i;
 }
 
@@ -527,6 +530,8 @@ function shopline_tab_page() {
                 $active_file_name = $plugin_slug . '/init.php';
            }elseif($plugin_slug=='crelly-slider'){
                 $active_file_name = $plugin_slug . '/crellyslider.php';
+           }elseif($plugin_slug=='th-advance-product-search'){
+                $active_file_name = $plugin_slug . '/th-advanced-product-search.php';
            }else{
             $active_file_name = $plugin_slug . '/' . $plugin_slug . '.php';
              }
@@ -586,9 +591,12 @@ $detail= esc_html__('YITH WooCommerce Wishlist allows you to add Wishlist functi
     $detail = esc_html__('Lead form builder is a contact form as well as lead generator plugin. This plugin will allow you create unlimited contact forms and to generate unlimited leads on your site.','shopline');
 } elseif($plugin_slug=='crelly-slider'){
     $detail = esc_html__('Crelly Slider is a Free / Open Source responsive WordPress slider that supports layers. You can add Texts, Images, YouTube/Vimeo videos using a powerful Drag & Drop Builder and animate each of them.','shopline');
+} elseif($plugin_slug=='th-advance-product-search'){
+    $detail = esc_html__('TH Advance Product Search is a Free easy to use Search Plugin.','shopline');
 } elseif($plugin_slug=='one-click-demo-import'){
     $detail = esc_html__('The best feature of this plugin is, that theme authors can define import files in their themes and so all you (the user of the theme) have to do is click on the "Import Demo Data" button.','shopline');
 } 
+
 echo '<p class="rcp-detail">'.$detail.' </p>';
                 echo '<p class="action-btn plugin-card-'.esc_attr( $plugin_slug ).'">
                         <span>Version:'.$version.'</span>

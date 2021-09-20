@@ -188,6 +188,7 @@ function shopline_featured_products() {
 
 		$args = array(
 		'post_type'   =>  'product',
+    'post_status' => 'publish',
 		'stock'       => 1,
 		'showposts'   =>  6,
 		'columns'     =>  4,
@@ -208,7 +209,9 @@ function shopline_featured_products() {
 							<a href="" class="product-image">
 								<?php
 								if ( has_post_thumbnail( $featured_query->post->ID ) )
-								echo get_the_post_thumbnail( $featured_query->post->ID, 'shop_catalog' );
+								//echo get_the_post_thumbnail( $featured_query->post->ID, 'shop_catalog' );
+                  echo get_the_post_thumbnail( $featured_query->post->ID, 'woocommerce_thumbnail' );
+
 								else
 								echo '<img src="' . wc_placeholder_img_src() . '" alt="product" class="image-hover wp-post-image"  />';
 								?>
@@ -449,7 +452,8 @@ function shopline_category_product_loop($category_product,$args,$layout){
                   $category_product['sale'] = $sale;
 
           if (has_post_thumbnail( $pid ) ):
-              $thumbnail = get_the_post_thumbnail( $pid, 'shop_single' );
+              //$thumbnail = get_the_post_thumbnail( $pid, 'shop_single' );
+              $thumbnail = get_the_post_thumbnail( $pid, 'woocommerce_thumbnail' );
               else:
               $thumbnail = '<img src="' . wc_placeholder_img_src() . '" alt="product" class="image-hover wp-post-image"  />';
               endif;
@@ -522,6 +526,7 @@ function shopline_category_products() {
                           )
                       ),
                       'post_type' => 'product',
+                      'post_status' => 'publish',
                       'orderby' => 'date'
                   );
 
@@ -539,6 +544,7 @@ function shopline_category_products() {
         $args = array(
                       'posts_per_page' => $posts_per_page,
                       'post_type' => 'product',
+                      'post_status' => 'publish',
                       'tax_query' => array(
                           array(
                               'taxonomy' => 'product_cat',
@@ -553,6 +559,7 @@ function shopline_category_products() {
         $args = array(
                       'posts_per_page' => $posts_per_page,
                       'post_type' => 'product',
+                      'post_status' => 'publish',
                       'orderby' =>'date',
                       'order' => 'DESC'
                   );
@@ -591,6 +598,7 @@ $term_product = get_theme_mod('slide_woo_product','recent');
             'hide_empty' => 1,
              'posts_per_page' => $posts_per_page,        
                       'post_type' => 'product',
+                      'post_status' => 'publish',
                       'orderby' => 'date',
                       'order' => 'DESC'
         );
@@ -660,6 +668,7 @@ function shopline_recent_contegory_product(){
   $args = array(
                       'posts_per_page' => $posts_per_page,
                       'post_type' => 'product',
+                      'post_status' => 'publish',
                       'tax_query' => array(
                           array(
                               'taxonomy' => 'product_cat',

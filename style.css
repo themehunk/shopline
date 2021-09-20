@@ -5,9 +5,9 @@ Author: ThemeHunk
 Author URI: www.themehunk.com 
 Description: Shopline is a full featured E-commerce WordPress theme build specially for WooCommerce. This theme has a clean, modern and selling oriented design which is suitable for creating any type of online store, fashion website and many more. Theme comes with one click set up, Section hide option, Section ordering (drag & drop functionality), which makes it more user-friendly. It comes with advance features like typography with 250+ Google fonts, product category slider, product section with grid layout, Header background types (slider, image, video, gradient, color) for front page & Inner pages, testimonial widget and service widget, Unlimited color, Gradient overlay, SVG design for each section, Three column ad, Custom padding, Dynamic page width, Page builder and Contact page template. You can use your favourite page builder plugin available for WordPress (Like: SiteOrigin, Beaver Builder, Elementor and many more). Fully responsive and well documented theme. Theme has seven widget areas (Four for footer, two for sidebar (default pages) and one for shop page). Lead form builder is integrated, through which you can easily collect  leads and create subscription or contact form with unlimited fields. Theme is compatible with WooCommerce, Wishlist, bbPress, Contactform7 and with many other WP plugin.
 Here is theme demo link: http://themehunk.com/product/shopline-free-shopping-theme/, we also provide full support for our free products: http://themehunk.com/support/
-Version: 1.3.7
-Requires at least: 4.5
-Tested up to: 5.7.2
+Version: 1.3.8
+Requires at least: 4.8
+Tested up to: 5.8.1
 Requires PHP: 5.2.4
 License: GNU General Public License v3 or later
 License URI: license.txt 
@@ -485,8 +485,8 @@ margin-bottom: 0px !important;
     fill: #fff;
 }
 
-svg {
-    position: absolute;
+.svg-top-container svg {
+   position: absolute;
     top: 0;
     left: 0;
     height: 100%;
@@ -1458,7 +1458,7 @@ background:rgba(255,255,255,.9);
 .woocommerce-product-search input:-moz-placeholder { /* Firefox 18- */
   color: #080808;
 }
-#search-box input[type="text"] {
+#search-box input[type="text"], #search-box input[type="search"] {
 width: 800px;
 background-color: transparent;
 border: 0;
@@ -1475,7 +1475,7 @@ background: transparent;
 *:focus {
     outline: 0;
 }
-#search-button {
+#search-button, #search-box button {
 display: block;
 right: 5px;
 border: 0;
@@ -1495,7 +1495,7 @@ position: absolute;
     -appearance: menulist;
 }
 
-#search-btn1{
+#search-btn1 {
     font-size: 24px;
 }
 #close-btn{
@@ -3421,6 +3421,11 @@ margin-top:160px;
     word-wrap: break-word;
     overflow: hidden;  
 }
+
+.sidebar-inner-widget h2{
+    font-size: 24px;
+    font-weight: 500;
+    }
 .sidebar .widget-content{
     padding:20px;
     border: 1px solid #e0e0e0;
