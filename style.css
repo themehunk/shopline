@@ -1430,7 +1430,7 @@ background:rgba(255,255,255,.9);
   display: inline-block;
   width: 50%;
   padding: 10px 15px;
-  color: #FFF;
+  color: #dd3333;
   border: none;
   background: transparent;
 }
@@ -1458,7 +1458,7 @@ background:rgba(255,255,255,.9);
 .woocommerce-product-search input:-moz-placeholder { /* Firefox 18- */
   color: #080808;
 }
-#search-box input[type="text"], #search-box input[type="search"] {
+#search-box input[type="text"] {
 width: 800px;
 background-color: transparent;
 border: 0;
@@ -1475,7 +1475,7 @@ background: transparent;
 *:focus {
     outline: 0;
 }
-#search-button, #search-box button {
+#search-button{
 display: block;
 right: 5px;
 border: 0;
@@ -1560,6 +1560,12 @@ margin:0;
 -moz-appearance:menulist-button;
     -appearance: menulist-button;
   }
+
+a.plugin-active-msg{
+    color: #dd3333 !important;
+    font-size: 20px;
+}
+
 /*******************************/
 /*new-search-box*/
 /*******************************/

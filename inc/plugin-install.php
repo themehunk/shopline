@@ -36,7 +36,7 @@ function shopline_register_required_plugins()
 
             array(
                 'name' => __('TH Advance Product Search', 'shopline'),
-                'slug' => 'th-advance-product-search', 
+                'slug' => 'th-advance-product-search' 
             ),
         );
 

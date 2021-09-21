@@ -531,7 +531,7 @@ function shopline_tab_page() {
            }elseif($plugin_slug=='crelly-slider'){
                 $active_file_name = $plugin_slug . '/crellyslider.php';
            }elseif($plugin_slug=='th-advance-product-search'){
-                $active_file_name = $plugin_slug . '/th-advanced-product-search.php';
+                $active_file_name = $plugin_slug . '/th-advance-product-search.php';
            }else{
             $active_file_name = $plugin_slug . '/' . $plugin_slug . '.php';
              }
