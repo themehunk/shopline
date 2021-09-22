@@ -33,6 +33,11 @@ function shopline_register_required_plugins()
                 'name' => __('Crelly Slider', 'shopline'),
                 'slug' => 'crelly-slider', 
             ),
+
+            array(
+                'name' => __('TH Advance Product Search', 'shopline'),
+                'slug' => 'th-advance-product-search' 
+            ),
         );
 
     $config = array(

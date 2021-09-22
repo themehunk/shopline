@@ -1,9 +1,9 @@
 === Theme: Shopline ===
 Contributors: ThemeHunk
 Tags: right-sidebar, theme-options, custom-menu, custom-logo, editor-style, featured-images, translation-ready, flexible-header, threaded-comments, e-commerce, footer-widgets
-Requires at least: 4.0
-Tested up to: 5.7.2
-Stable tag: 1.3.7
+Requires at least: 4.8
+Tested up to: 5.8.1
+Stable tag: 1.3.8
 Requires PHP: 5.2.4
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -22,6 +22,11 @@ Yes, we have created our theme in such a way that it can support almost all plug
 
 = Does your theme works on multisite. =
 Yes, all our theme works on multisite.
+
+
+== Changelog ==
+= Version: 1.3.8 =
+* th advance product search plugin added.
 
 == Changelog ==
 = Version: 1.3.7 =

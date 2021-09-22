@@ -94,6 +94,9 @@ add_theme_support( 'wc-product-gallery-lightbox' );
             ),'crelly-slider' => array(
                  'name' => esc_html__( 'Crelly Slider', 'shopline' ),
                  'active_filename' => 'crelly-slider/crellyslider.php',
+             ),'th-advance-product-search' => array(
+                 'name' => esc_html__( 'TH Advance Product Search', 'shopline' ),
+                 'active_filename' => 'th-advance-product-search/th-advanced-product-search.php',
              ),'one-click-demo-import' => array(
                  'name' => esc_html__( 'One Click Demo Import', 'shopline' ),
                  'active_filename' => 'one-click-demo-import/one-click-demo-import.php',
