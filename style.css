@@ -1459,18 +1459,20 @@ background:rgba(255,255,255,.9);
   color: #080808;
 }
 #search-box input[type="text"] {
-width: 800px;
-background-color: transparent;
-border: 0;
-border-bottom: 2px solid #080808;
-text-align: center;
-font-size: 20px;
-padding: 10px;
-transition: all .3s ease-out;
-max-width: 100%;
-background: transparent;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #080808;
+    text-align: initial;
+    font-size: initial;
+    padding: 10px;
+    transition: all .3s ease-out;
+    max-width: 100%;
+    background: transparent;
     -webkit-appearance: none;
     border-radius: 0;
+}
+.thaps-preloader {
+    width: initial;
 }
 *:focus {
     outline: 0;
