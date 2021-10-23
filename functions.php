@@ -76,32 +76,71 @@ add_theme_support( 'wc-product-gallery-lightbox' );
 
 // Recommend plugins
         add_theme_support( 'recommend-plugins', array(
-            'themehunk-customizer' => array(
-                'name' => esc_html__( 'ThemeHunk Customizer', 'shopline' ),
-                'active_filename' => 'themehunk-customizer/themehunk-customizer.php',
-            ),
-            'woocommerce' => array(
-                'name' => esc_html__( 'Woocommerce', 'shopline' ),
-                'active_filename' => 'woocommerce/woocommerce.php',
-            ), 'th-advance-product-search' => array(
-                 'name' => esc_html__( 'TH Advance Product Search', 'shopline' ),
-                 'active_filename' => 'th-advance-product-search/th-advanced-product-search.php',
-             ),
-             'yith-woocommerce-wishlist' => array(
-                 'name' => esc_html__( 'YITH WooCommerce Wishlist', 'shopline' ),
-                 'active_filename' => 'yith-woocommerce-wishlist/init.php',
-             ),
+
             'lead-form-builder' => array(
                 'name' => esc_html__( 'Lead Form Builder', 'shopline' ),
+                'img' => 'icon-128x128.png',
                 'active_filename' => 'lead-form-builder/lead-form-builder.php',
-            ),'crelly-slider' => array(
-                 'name' => esc_html__( 'Crelly Slider', 'shopline' ),
-                 'active_filename' => 'crelly-slider/crellyslider.php',
-             ), 'one-click-demo-import' => array(
-                 'name' => esc_html__( 'One Click Demo Import', 'shopline' ),
-                 'active_filename' => 'one-click-demo-import/one-click-demo-import.php',
+            ),
+
+            'th-advance-product-search' => array(
+                 'name' => esc_html__( 'TH Advance Product Search', 'shopline' ),
+                 'img' => 'icon-128x128.gif',
+                 'active_filename' => 'th-advance-product-search/th-advanced-product-search.php',
              ),
+
+            'themehunk-megamenu-plus' => array(
+                'name' => esc_html__( 'Megamenu plugin from Themehunk.', 'shopline' ),
+                 'img' => 'icon-128x128.png',
+                'active_filename' => 'themehunk-megamenu-plus/themehunk-megamenu.php',
+            ),
+            'themehunk-customizer' => array(
+                'name' => esc_html__( 'ThemeHunk Customizer', 'shopline' ),
+                'img' => 'icon-128x128.png',
+                'active_filename' => 'themehunk-customizer/themehunk-customizer.php',
+            ),
+
+            'crelly-slider' => array(
+                 'name' => esc_html__( 'Crelly Slider', 'shopline' ),
+                 'img' => 'icon-128x128.jpg',
+                 'active_filename' => 'crelly-slider/crellyslider.php',
+             ),
+            'woocommerce' => array(
+                'name' => esc_html__( 'Woocommerce', 'shopline' ),
+                'img' => 'icon-128x128.png',
+                'active_filename' => 'woocommerce/woocommerce.php',
+            ), 
+             'yith-woocommerce-wishlist' => array(
+                 'name' => esc_html__( 'YITH WooCommerce Wishlist', 'shopline' ),
+                 'img' => 'icon-128x128.jpg',
+                 'active_filename' => 'yith-woocommerce-wishlist/init.php',
+             ),
+            
+
+             
         ) );
+
+        // Import Data Content plugins
+        add_theme_support( 'import-demo-content', array(
+
+            'themehunk-customizer' => array(
+                'name' => esc_html__( 'ThemeHunk Customizer', 'shopline' ),
+                 'img' => 'icon-128x128.png',
+                'active_filename' => 'themehunk-customizer/themehunk-customizer.php',
+            ),
+
+            'one-click-demo-import' => array(
+                'name' => esc_html__( 'One Click Demo Import', 'shopline' ),
+                'img' => 'icon-128x128.png',
+                'active_filename' => 'one-click-demo-import/one-click-demo-import.php',
+            ), 
+            'woocommerce' => array(
+                'name' => esc_html__( 'Woocommerce', 'shopline' ),
+                'img' => 'icon-128x128.png',
+                'active_filename' => 'woocommerce/woocommerce.php',
+            ),
+
+        ));
 }
 add_action( 'after_setup_theme', 'shopline_theme_setup' );
 
