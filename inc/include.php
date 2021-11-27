@@ -16,6 +16,8 @@
 	require get_parent_theme_file_path('/customizer/pro-button/class-customize.php' );
 	require get_parent_theme_file_path('/inc/theme-setup/shopline-theme.php');
 	require get_parent_theme_file_path('/inc/th-option/th-option.php');
+	require get_parent_theme_file_path('/inc/th-option/child-notify.php');
+
 
 
 	

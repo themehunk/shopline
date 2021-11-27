@@ -2,8 +2,8 @@
 Contributors: ThemeHunk
 Tags: right-sidebar, theme-options, custom-menu, custom-logo, editor-style, featured-images, translation-ready, flexible-header, threaded-comments, e-commerce, footer-widgets
 Requires at least: 4.8
-Tested up to: 5.8.1
-Stable tag: 1.3.9
+Tested up to: 5.8.2
+Stable tag: 1.4.0
 Requires PHP: 5.2.4
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -25,6 +25,10 @@ Yes, all our theme works on multisite.
 
 
 == Changelog ==
+
+= Version: 1.4.0 =
+* th option panel updated.
+* Child theme notification added.
 
 = Version: 1.3.9 =
 * th option panel updated.
@@ -154,8 +158,9 @@ Theme Released
 
 == Upgrade Notice ==
 
-= Version: 1.3.9 =
+= Version: 1.4.0 =
 * th option panel updated.
+* Child theme notification added.
 
 
 == Resources ==

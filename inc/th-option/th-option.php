@@ -42,7 +42,7 @@ function tab_constant(){
     $tab_array['header'] = array('theme_brand' => __('ThemeHunk','shopline'),
     'theme_brand_url' => esc_url($theme_data->get( 'AuthorURI' )),
     'welcome'=>sprintf(esc_html__('Welcome To %1s Theme', 'shopline'), esc_html__($theme_data->get( 'Name' )), $theme_data->get( 'Version' ) ),
-    'welcome_desc' => esc_html__($theme_data->get( 'Name' ).' is a full featured E-commerce WordPress theme', 'shopline' ),
+    'welcome_desc' => esc_html__($theme_data->get( 'Name' ).' is a full featured E-commerce WordPress theme build specially for WooCommerce.', 'shopline' ),
     'v'=> 'Version '.$theme_data->get( 'Version' )
     );
     return $tab_array;
@@ -61,7 +61,7 @@ function tab_page() {
 function default_home() {
 $pages = get_pages(array(
     'meta_key' => '_wp_page_template',
-    'meta_value' => 'home-template.php'
+    'meta_value' => 'frontpage.php'
 ));
   $post_id = isset($pages[0]->ID)?$pages[0]->ID:false;
 if(empty($pages)){
@@ -72,7 +72,7 @@ if(empty($pages)){
        'post_status' => 'publish',
        'comment_status' => 'closed',   // if you prefer
        'ping_status' => 'closed',      // if you prefer
-       'page_template' =>'home-template.php', //Sets the template for the page.
+       'page_template' =>'frontpage.php', //Sets the template for the page.
     ));
   }
       if($post_id){
@@ -89,7 +89,7 @@ function _check_homepage_setup(){
 
     $pages = get_pages(array(
     'meta_key' => '_wp_page_template',
-    'meta_value' => 'home-template.php'
+    'meta_value' => 'frontpage.php'
 ));
    $post_id = isset($pages[0]->ID)?$pages[0]->ID:false;
 
@@ -132,9 +132,8 @@ function _check_homepage_setup(){
       );
 
         }
-        
+		
 
-	
 
 function plugin_install_button($plugin){
             $button = '<div class="rcp theme_link th-row">';
@@ -149,13 +148,15 @@ function plugin_install_button($plugin){
 
             echo $button;
 }
-	
-		
+
+
+
 
 /**
  * Include Welcome page content
  */
  public  function plugin_install($rplugins = 'recommend-plugins'){
+
     $recommend_plugins = get_theme_support( $rplugins );
 
        if ( is_array( $recommend_plugins ) && isset( $recommend_plugins[0] ) ){
@@ -223,9 +224,6 @@ function plugin_install_button($plugin){
     } // plugin check
 }
 
-		
 	
-
- 
 } // class end
 $boj = new shopline_theme_option(); ?>

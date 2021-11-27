@@ -150,12 +150,16 @@ a.plugin-detail.thickbox.open-plugin-details-modal {
     display: block;
 }
 .rp-two-column {
-    display: block;
     display: flex;
     flex-wrap: wrap;
     grid-column-gap: 55px;
     grid-row-gap: 45px;
-    justify-content: center;
+}
+
+.rp-two-column.welcome-tabs{
+    flex-direction: column;
+    height: 900px;
+    justify-content: flex-start;
 }
 .tab-left {
     width: 70%;
@@ -205,7 +209,7 @@ width: 50%;
 
 .theme_link p{
     font-weight: 400;
-    line-height: 1.6;
+    line-height: 1.5;
     font-size: 16px;
 }
 
@@ -448,13 +452,46 @@ display: flex;
     height: auto;
     font-size: 15px;
 }
+.appearance_page_thunk_started #Import-Demo-Content .theme_link.import-demo{
+    width: 100%;
+}
+.import-image{
+    margin-right: 45px;
+}
 
-
-
-
-
-
-
+.appearance_page_thunk_started .theme_link.child-theme{
+    width: 100%;
+}
+.child-image{
+    float: left;
+    margin-right: 25px;
+}
+.theme_link.child-theme a{
+    background: #2271b1;
+    color: #FFF;
+}
+.get-child{
+    position: relative;
+}
+.get-child:after{
+    content: " New";
+    background: #ff2121;
+    color: #FFF;
+    padding: 2px 7px;
+    margin-top: -27px;
+    position: absolute; 
+    text-align: center;
+    border-radius: 4px;
+    font-size: 12px;
+    top: 29px;
+    right: 0;
+}
+.wp-core-ui .child-theme-notice a.button{
+    margin-bottom: 9px;
+}
+.child-theme-notice{
+    margin-right: 39px;
+}
 @media (min-width: 768px){
 .theme_link {
     width: 18%;
