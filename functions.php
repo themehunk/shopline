@@ -74,57 +74,68 @@ add_theme_support( 'wc-product-gallery-slider' );
 add_theme_support( 'wc-product-gallery-zoom' );
 add_theme_support( 'wc-product-gallery-lightbox' );
 
+
 // Recommend plugins
         add_theme_support( 'recommend-plugins', array(
 
-            'lead-form-builder' => array(
-                'name' => esc_html__( 'Lead Form Builder', 'shopline' ),
-                'img' => 'icon-128x128.png',
-                'active_filename' => 'lead-form-builder/lead-form-builder.php',
+            'themehunk-customizer' => array(
+                'name' => esc_html__( 'Themehunk Customizer (Highly Recommended)', 'shopline' ),
+                 'img' => 'icon-128x128.png',
+                'active_filename' => 'themehunk-customizer/themehunk-customizer.php',
             ),
 
             'th-advance-product-search' => array(
-                 'name' => esc_html__( 'TH Advance Product Search', 'shopline' ),
+            'name' => esc_html__( 'TH Advance Product Search', 'shopline' ),
+            'img' => 'icon-128x128.gif',
+            'active_filename' => 'th-advance-product-search/th-advance-product-search.php',
+            ),
+            'th-variation-swatches' => array(
+                'name' => esc_html__( 'TH Variation Swatches', 'shopline' ),
                  'img' => 'icon-128x128.gif',
-                 'active_filename' => 'th-advance-product-search/th-advanced-product-search.php',
+                'active_filename' => 'th-variation-swatches/th-variation-swatches.php',
+            ),
+            'lead-form-builder' => array(
+                'name' => esc_html__( 'Lead Form Builder', 'shopline' ),
+                 'img' => 'icon-128x128.png',
+                'active_filename' => 'lead-form-builder/lead-form-builder.php',
+            ),
+            'wp-popup-builder' => array(
+                'name' => esc_html__( 'WP Popup Builder – Popup Forms & Newsletter', 'shopline' ),
+                 'img' => 'icon-128x128.png',
+                'active_filename' => 'wp-popup-builder/wp-popup-builder.php',
+            ), 
+            'woocommerce' => array(
+                'name' => esc_html__( 'Woocommerce', 'shopline' ),
+                 'img' => 'icon-128x128.png',
+                'active_filename' => 'woocommerce/woocommerce.php',
+            ),
+
+            'yith-woocommerce-wishlist' => array(
+                 'name' => esc_html__( 'YITH WooCommerce Wishlist', 'shopline' ),
+                  'img' => 'icon-128x128.jpg',
+                 'active_filename' => 'yith-woocommerce-wishlist/init.php',
              ),
 
             'themehunk-megamenu-plus' => array(
-                'name' => esc_html__( 'Megamenu plugin from Themehunk.', 'shopline' ),
-                 'img' => 'icon-128x128.png',
-                'active_filename' => 'themehunk-megamenu-plus/themehunk-megamenu.php',
-            ),
-            'themehunk-customizer' => array(
-                'name' => esc_html__( 'ThemeHunk Customizer', 'shopline' ),
+                'name' => esc_html__( 'ThemeHunk Megamenu – Menu builder', 'shopline' ),
                 'img' => 'icon-128x128.png',
-                'active_filename' => 'themehunk-customizer/themehunk-customizer.php',
-            ),
+                'active_filename' => 'themehunk-megamenu-plus/themehunk-megamenu.php',
+            ), 
 
             'crelly-slider' => array(
                  'name' => esc_html__( 'Crelly Slider', 'shopline' ),
                  'img' => 'icon-128x128.jpg',
                  'active_filename' => 'crelly-slider/crellyslider.php',
              ),
-            'woocommerce' => array(
-                'name' => esc_html__( 'Woocommerce', 'shopline' ),
-                'img' => 'icon-128x128.png',
-                'active_filename' => 'woocommerce/woocommerce.php',
-            ), 
-             'yith-woocommerce-wishlist' => array(
-                 'name' => esc_html__( 'YITH WooCommerce Wishlist', 'shopline' ),
-                 'img' => 'icon-128x128.jpg',
-                 'active_filename' => 'yith-woocommerce-wishlist/init.php',
-             ),
             
 
-             
         ) );
 
         // Import Data Content plugins
         add_theme_support( 'import-demo-content', array(
 
-            'themehunk-customizer' => array(
-                'name' => esc_html__( 'ThemeHunk Customizer', 'shopline' ),
+             'themehunk-customizer' => array(
+                'name' => esc_html__( 'Themehunk Customizer (Highly Recommended)', 'shopline' ),
                  'img' => 'icon-128x128.png',
                 'active_filename' => 'themehunk-customizer/themehunk-customizer.php',
             ),
@@ -141,6 +152,15 @@ add_theme_support( 'wc-product-gallery-lightbox' );
             ),
 
         ));
+
+        // Useful plugins
+        add_theme_support( 'useful-plugins', array(
+             'themehunk-megamenu-plus' => array(
+                'name' => esc_html__( 'Megamenu plugin from Themehunk.', 'shopline' ),
+                'active_filename' => 'themehunk-megamenu-plus/themehunk-megamenu.php',
+            ),
+        ) );
+
 }
 add_action( 'after_setup_theme', 'shopline_theme_setup' );
 
