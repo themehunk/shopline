@@ -5,7 +5,7 @@
             </h3>
             <p>
             <b><?php _e('Pre-made premium templates','shopline'); ?> </b><br>
-            <?php _e('Shopline is one of the most popular eCommerce theme on WordPress.','shopline'); ?> </p>
+            <?php _e('Shopline Pro is one of the most popular eCommerce theme on WordPress.','shopline'); ?> </p>
                 <center><a class="button ztabtn" target="_blank" href="https://themehunk.com/product/shopline-pro-multipurpose-shopping-theme/"><?php _e('Upgrade','shopline'); ?> </a></center>
             </div>
             <hr>
