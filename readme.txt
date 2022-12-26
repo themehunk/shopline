@@ -2,9 +2,9 @@
 Contributors: ThemeHunk
 Tags: right-sidebar, theme-options, custom-menu, custom-logo, editor-style, featured-images, translation-ready, flexible-header, threaded-comments, e-commerce, footer-widgets
 Requires at least: 4.8
-Tested up to: 5.9.3
-Stable tag: 1.4.1
-Requires PHP: 5.2.4
+Tested up to: 6.1
+Stable tag: 1.4.2
+Requires PHP: 5.4
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -25,6 +25,9 @@ Yes, all our theme works on multisite.
 
 
 == Changelog ==
+
+= Version: 1.4.2 =
+* Theme tested with WordPress 6.1.
 
 = Version: 1.4.1 =
 * Cart, Search and Compare Plugin Competible.
@@ -161,9 +164,8 @@ Theme Released
 
 == Upgrade Notice ==
 
-= Version: 1.4.0 =
-* th option panel updated.
-* Child theme notification added.
+= Version: 1.4.2 =
+* Theme tested with WordPress 6.1.
 
 
 == Resources ==

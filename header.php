@@ -45,7 +45,7 @@
       $last_btn ='';
     }
     ?>
-    <header class="<?php echo esc_attr($headr_static_cls);?> <?php echo esc_attr($hdr_trnsprnt); ?> <?php echo $hdr_intrl_trnsprnt;?> <?php echo esc_attr($header_hide); ?> <?php echo esc_attr($last_btn); ?>">
+    <header class="<?php echo esc_attr($headr_static_cls);?> <?php echo esc_attr($hdr_trnsprnt); ?> <?php echo esc_attr($hdr_intrl_trnsprnt);?> <?php echo esc_attr($header_hide); ?> <?php echo esc_attr($last_btn); ?>">
       <div class="header-wrapper">
         <div class="container">
           <div class="title-desc">
