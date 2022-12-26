@@ -5,10 +5,10 @@ Author: ThemeHunk
 Author URI: www.themehunk.com 
 Description: Shopline is a full featured E-commerce WordPress theme build specially for WooCommerce. This theme has a clean, modern and selling oriented design which is suitable for creating any type of online store, fashion website and many more. Theme comes with one click set up, Section hide option, Section ordering (drag & drop functionality), which makes it more user-friendly. It comes with advance features like typography with 250+ Google fonts, product category slider, product section with grid layout, Header background types (slider, image, video, gradient, color) for front page & Inner pages, testimonial widget and service widget, Unlimited color, Gradient overlay, SVG design for each section, Three column ad, Custom padding, Dynamic page width, Page builder and Contact page template. You can use your favourite page builder plugin available for WordPress (Like: SiteOrigin, Beaver Builder, Elementor and many more). Fully responsive and well documented theme. Theme has seven widget areas (Four for footer, two for sidebar (default pages) and one for shop page). Lead form builder is integrated, through which you can easily collect  leads and create subscription or contact form with unlimited fields. Theme is compatible with WooCommerce, Wishlist, bbPress, Contactform7 and with many other WP plugin.
 Here is theme demo link: http://themehunk.com/product/shopline-free-shopping-theme/, we also provide full support for our free products: http://themehunk.com/support/
-Version: 1.4.1
+Version: 1.4.2
 Requires at least: 4.8
-Tested up to: 5.9.3 
-Requires PHP: 5.2.4
+Tested up to: 6.1
+Requires PHP: 5.4
 License: GNU General Public License v3 or later
 License URI: license.txt 
 Tags:right-sidebar, theme-options, custom-menu, custom-logo, editor-style, featured-images, translation-ready, flexible-header, threaded-comments, e-commerce, footer-widgets
@@ -3181,14 +3181,12 @@ font-family:"Poppins-Regular", sans-serif;
     height: auto;
     box-shadow: none;
 }
-
 .product_list_widget li .product-title, .product_list_widget li>a, .widget_recent_reviews li .product-title, .widget_recent_reviews li>a, .widget_shopping_cart li .product-title, .widget_shopping_cart li>a {
     display: block;
     line-height:1em;
     text-transform: capitalize;
     margin-bottom:5px;
 }
-
 .woocommerce .widget .star-rating {
     float: right;
     overflow: hidden;
@@ -3429,7 +3427,6 @@ margin-top:160px;
     word-wrap: break-word;
     overflow: hidden;  
 }
-
 .sidebar-inner-widget h2{
     font-size: 24px;
     font-weight: 500;
@@ -3455,10 +3452,6 @@ margin-top:160px;
     background: #ededed;
     line-height: 30px;
 }
-/*.sidebar-inner-widget .widgettitle span{
-line-height: 0em;
-display: -webkit-inline-box;
-}*/
 .sidebar-inner-widget ul {
     display: list-item;
 }
@@ -3513,7 +3506,7 @@ Move To Top
     border-radius: 4px 4px 0 0;
     position: fixed;
     right: 10px;
-    bottom:0px;
+    bottom: 152px;
     opacity:0.9;
     width: 45px;
     z-index: 999;
@@ -4395,7 +4388,7 @@ font-size: 12px;
 background-color: transparent;
 color: #e7c09c;
 font-weight:normal;
-padding: 1.6em 1.8em;
+padding: 7px 12px;
 border:2px solid #e7c09c;
 webkit-transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
 transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
@@ -4768,7 +4761,7 @@ webkit-transition: all 0.6s ease;
 .woocommerce input.button {
     font-size:12px;
     margin: 0;
-    line-height: 0;
+    line-height: initial;
     cursor: pointer;
     position: relative;
     text-decoration: none;

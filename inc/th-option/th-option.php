@@ -41,8 +41,8 @@ function tab_constant(){
     $tab_array = array();
     $tab_array['header'] = array('theme_brand' => __('ThemeHunk','shopline'),
     'theme_brand_url' => esc_url($theme_data->get( 'AuthorURI' )),
-    'welcome'=>sprintf(esc_html__('Welcome To %1s Theme', 'shopline'), esc_html__($theme_data->get( 'Name' )), $theme_data->get( 'Version' ) ),
-    'welcome_desc' => esc_html__($theme_data->get( 'Name' ).' is a full featured E-commerce WordPress theme build specially for WooCommerce.', 'shopline' ),
+    'welcome'=>sprintf(esc_html__('Welcome To %1s Theme', 'shopline'), esc_html($theme_data->get( 'Name' )), $theme_data->get( 'Version' ) ),
+    'welcome_desc' => esc_html($theme_data->get( 'Name' ).' is a full featured E-commerce WordPress theme build specially for WooCommerce.', 'shopline' ),
     'v'=> 'Version '.$theme_data->get( 'Version' )
     );
     return $tab_array;

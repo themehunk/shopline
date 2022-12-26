@@ -73,3 +73,6 @@ background: #4fd1cd!important;
   100% { transform: rotate(360deg); }
 }
 
+.customize-control input[type=number].range-slider-value{
+  margin-top: 9px;
+}
