@@ -1,9 +1,9 @@
 === Theme: Shopline ===
 Contributors: ThemeHunk
-Tags: right-sidebar, theme-options, custom-menu, custom-logo, editor-style, featured-images, translation-ready, flexible-header, threaded-comments, e-commerce, footer-widgets
+Tags: wide-blocks, block-patterns, block-styles, editor-style, right-sidebar, theme-options, custom-menu, custom-logo, editor-style, featured-images, translation-ready, flexible-header, full-width-template, threaded-comments, e-commerce, footer-widgets
 Requires at least: 4.8
-Tested up to: 6.1
-Stable tag: 1.4.2
+Tested up to: 6.2
+Stable tag: 1.4.3
 Requires PHP: 5.4
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -25,6 +25,15 @@ Yes, all our theme works on multisite.
 
 
 == Changelog ==
+
+= Version: 1.4.3 =
+New: Theme.json Added.
+New: Theme made compatible with Block Editor.
+Update: Style Improved.
+New: Tags Added.
+New: Blank Template Added.
+New Editor.css Added.
+Update: Theme tested with latest WordPress 6.2.
 
 = Version: 1.4.2 =
 * Theme tested with WordPress 6.1.
@@ -164,8 +173,14 @@ Theme Released
 
 == Upgrade Notice ==
 
-= Version: 1.4.2 =
-* Theme tested with WordPress 6.1.
+= Version: 1.4.3 =
+New: Theme.json Added.
+New: Theme made compatible with Block Editor.
+Update: Style Improved.
+New: Tags Added.
+New: Blank Template Added.
+New Editor.css Added.
+Update: Theme tested with latest WordPress 6.2.
 
 
 == Resources ==

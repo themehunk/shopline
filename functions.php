@@ -33,10 +33,14 @@ add_image_size( 'shopline-custom-blog', 374, 280, true );
 
         // Enqueue editor styles.
         add_editor_style( 'style-editor.css' );
+
+        add_editor_style( 'editor.css' );
+
         // Add support for responsive embedded content.
         add_theme_support( 'responsive-embeds' );
-        //remove widegt block
-        remove_theme_support( 'widgets-block-editor' );
+
+        add_theme_support( 'custom-spacing' );
+
     /*
     /*
    * Let WordPress manage the document title.
@@ -109,6 +113,11 @@ add_theme_support( 'wc-product-gallery-lightbox' );
                  'img' => 'icon-128x128.png',
                 'active_filename' => 'woocommerce/woocommerce.php',
             ),
+            'unlimited-blocks' => array(
+              'name' => esc_html__( 'Unlimited blocks For Gutenberg', 'shopline' ),
+               'img' => 'icon-128x128.png',
+               'active_filename' => 'unlimited-blocks/unlimited-blocks.php',
+          ),
 
             'yith-woocommerce-wishlist' => array(
                  'name' => esc_html__( 'YITH WooCommerce Wishlist', 'shopline' ),
