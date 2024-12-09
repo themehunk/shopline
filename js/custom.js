@@ -721,8 +721,9 @@ itemSelector : '.catli'
           }
         }
         $product_id = $thisbutton.attr( 'data-product_id' );
-          var data = {'product_id':$product_id,
-           'action': 'shopline_product_remove'
+           var data = {'product_id':$product_id,
+           'action': 'shopline_product_remove',
+           'nonce':shopline.shoplinenonce
          };
          jQuery.post(
            woocommerce_params.ajax_url, // The AJAX URL
@@ -731,7 +732,8 @@ itemSelector : '.catli'
             jQuery('.sidebar-quickcart').html(response);
 
         var data = {
-           'action': 'shopline_product_count_update'
+           'action': 'shopline_product_count_update',
+           'nonce':shopline.shoplinenonce
          };
          jQuery.post(
            woocommerce_params.ajax_url, // The AJAX URL
@@ -886,7 +888,7 @@ function ShoplinePopupAjaxRequest(data, method) {
      //makes page more lightweight
   var popup = jQuery(this).attr('popupid');
   jQuery( "#shopline-popup-boxes" ).remove();
-  $popup_sc = "popup="+popup+"&action=shopline_popup_product";
+  $popup_sc = "popup="+popup+"&action=shopline_popup_product&nonce="+shopline.shoplinenonce;
   ShoplinePopupAjaxRequest($popup_sc, 'POST').success(function(response) {
   jQuery("body").append(response);
     jQuery( ".overlayloader,pre-loader" ).hide();

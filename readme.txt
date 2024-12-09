@@ -2,8 +2,8 @@
 Contributors: ThemeHunk
 Tags: wide-blocks, block-patterns, block-styles, editor-style, right-sidebar, theme-options, custom-menu, custom-logo, editor-style, featured-images, translation-ready, flexible-header, full-width-template, threaded-comments, e-commerce, footer-widgets
 Requires at least: 4.8
-Tested up to: 6.2
-Stable tag: 1.4.3
+Tested up to: 6.7
+Stable tag: 1.4.4
 Requires PHP: 5.4
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -25,6 +25,9 @@ Yes, all our theme works on multisite.
 
 
 == Changelog ==
+
+= Version: 1.4.4 =
+Fix: Security Issue Fixed.
 
 = Version: 1.4.3 =
 New: Theme.json Added.

@@ -257,7 +257,10 @@ wp_enqueue_script( 'flexslider', get_parent_theme_file_uri( '/js/flexslider.js')
 
     wp_enqueue_script( 'aos', get_parent_theme_file_uri( '/js/aos.js'), array( 'jquery' ), '', true );
     wp_enqueue_script( 'shopline-custom', get_parent_theme_file_uri( '/js/custom.js'), array( 'jquery' ), '', true );
-
+    $localize = array(
+      'shoplinenonce'         => wp_create_nonce( 'shopline_nonce' ),	
+    );
+    wp_localize_script( 'shopline-custom', 'shopline',  $localize );	
 // Comment reply
    if (is_singular() && get_option('thread_comments')){
     wp_enqueue_script('comment-reply');
@@ -273,4 +276,5 @@ if ( ! function_exists( 'wp_body_open' ) ) {
   function wp_body_open() {
     do_action( 'wp_body_open' );
   }
+  
 }
