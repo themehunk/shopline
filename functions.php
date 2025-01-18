@@ -87,50 +87,41 @@ add_theme_support( 'wc-product-gallery-lightbox' );
                  'img' => 'icon-128x128.png',
                 'active_filename' => 'themehunk-customizer/themehunk-customizer.php',
             ),
-
-            'th-advance-product-search' => array(
+            'vayu-blocks' => array(
+                'name' => esc_html__( 'Vayu blocks For Gutenberg', 'shopline' ),
+                'img' => 'icon-128x128.png',
+                'active_filename' => 'vayu-blocks/vayu-blocks.php',
+                ),
+          'th-advance-product-search' => array(
             'name' => esc_html__( 'TH Advance Product Search', 'shopline' ),
             'img' => 'icon-128x128.gif',
             'active_filename' => 'th-advance-product-search/th-advance-product-search.php',
             ),
-            'th-variation-swatches' => array(
-                'name' => esc_html__( 'TH Variation Swatches', 'shopline' ),
-                 'img' => 'icon-128x128.gif',
-                'active_filename' => 'th-variation-swatches/th-variation-swatches.php',
-            ),
+            'th-all-in-one-woo-cart' => array(
+                 'name' => esc_html__( 'TH All In One Woo Cart', 'shopline' ),
+                  'img' => 'icon-128x128.gif',
+                 'active_filename' => 'th-all-in-one-woo-cart/th-all-in-one-woo-cart.php',
+             ),
+            'th-product-compare' => array(
+                 'name' => esc_html__( 'TH Product Compare', 'shopline' ),
+                  'img' => 'icon-128x128.gif',
+                 'active_filename' => 'th-product-compare/th-product-compare.php',
+             ),
             'lead-form-builder' => array(
                 'name' => esc_html__( 'Lead Form Builder', 'shopline' ),
                  'img' => 'icon-128x128.png',
                 'active_filename' => 'lead-form-builder/lead-form-builder.php',
             ),
+            'th-variation-swatches' => array(
+                'name' => esc_html__( 'TH Variation Swatches', 'shopline' ),
+                 'img' => 'icon-128x128.gif',
+                'active_filename' => 'th-variation-swatches/th-variation-swatches.php',
+            ),    
             'wp-popup-builder' => array(
                 'name' => esc_html__( 'WP Popup Builder – Popup Forms & Newsletter', 'shopline' ),
                  'img' => 'icon-128x128.png',
                 'active_filename' => 'wp-popup-builder/wp-popup-builder.php',
-            ), 
-            'woocommerce' => array(
-                'name' => esc_html__( 'Woocommerce', 'shopline' ),
-                 'img' => 'icon-128x128.png',
-                'active_filename' => 'woocommerce/woocommerce.php',
-            ),
-            'unlimited-blocks' => array(
-              'name' => esc_html__( 'Unlimited blocks For Gutenberg', 'shopline' ),
-               'img' => 'icon-128x128.png',
-               'active_filename' => 'unlimited-blocks/unlimited-blocks.php',
-          ),
-
-            'yith-woocommerce-wishlist' => array(
-                 'name' => esc_html__( 'YITH WooCommerce Wishlist', 'shopline' ),
-                  'img' => 'icon-128x128.jpg',
-                 'active_filename' => 'yith-woocommerce-wishlist/init.php',
-             ),
-
-            'themehunk-megamenu-plus' => array(
-                'name' => esc_html__( 'ThemeHunk Megamenu – Menu builder', 'shopline' ),
-                'img' => 'icon-128x128.png',
-                'active_filename' => 'themehunk-megamenu-plus/themehunk-megamenu.php',
-            ), 
-
+            ),        
             'crelly-slider' => array(
                  'name' => esc_html__( 'Crelly Slider', 'shopline' ),
                  'img' => 'icon-128x128.jpg',
@@ -147,17 +138,6 @@ add_theme_support( 'wc-product-gallery-lightbox' );
                 'name' => esc_html__( 'Themehunk Customizer (Highly Recommended)', 'shopline' ),
                  'img' => 'icon-128x128.png',
                 'active_filename' => 'themehunk-customizer/themehunk-customizer.php',
-            ),
-
-            'one-click-demo-import' => array(
-                'name' => esc_html__( 'One Click Demo Import', 'shopline' ),
-                'img' => 'icon-128x128.png',
-                'active_filename' => 'one-click-demo-import/one-click-demo-import.php',
-            ), 
-            'woocommerce' => array(
-                'name' => esc_html__( 'Woocommerce', 'shopline' ),
-                'img' => 'icon-128x128.png',
-                'active_filename' => 'woocommerce/woocommerce.php',
             ),
 
         ));

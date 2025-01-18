@@ -157,8 +157,7 @@ a.plugin-detail.thickbox.open-plugin-details-modal {
 }
 
 .rp-two-column.welcome-tabs{
-    flex-direction: column;
-    height: 900px;
+    flex-direction: row;
     justify-content: flex-start;
 }
 .tab-left {
@@ -498,3 +497,29 @@ display: flex;
    padding: 1%;
 }
 }
+.content-wrap a{
+    text-decoration: none;
+}
+
+/* share X link */
+.x-gropup .x-image img{
+    width: 50px;
+    }
+    .x-gropup{
+        display: flex;
+        align-items: center;
+        background-color: #2a2929;
+        padding: 2px 12px;
+        margin: 20px 0 0 !important;
+        color: #fff;
+        line-height: normal;
+        text-decoration: none;
+        box-shadow: 0 0 0 0 #3b5998;
+        transition: .3s ease;
+        border-radius: 58px;
+        width: max-content;
+    }
+    .x-gropup:hover ,.x-gropup:active,.x-gropup:focus{
+    color:#fff;
+    background-color: #000000;
+    }

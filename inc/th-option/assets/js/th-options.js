@@ -25,7 +25,7 @@ function openTab(evt, tabName) {
 
     THoptionAdmin = {
         init: function(){
-            this.rPlugins = ['themehunk-customizer', 'one-click-demo-import', 'woocommerce'];
+            this.rPlugins = ['themehunk-customizer'];
 
             this._bind();
             this._importActiveBtn();
@@ -65,12 +65,9 @@ function openTab(evt, tabName) {
             rPlugins.forEach(element => {
                         const activeCheck = document.querySelector('.'+element+'.disabled');
                         if(activeCheck) {
-                            i++;
-                            if(i>3){
                                 var importdemo = jQuery( '.importdemo');
                                 importdemo.removeClass( 'disabled' ).attr('href',THAdmin.oneClickDemo);
-                                importdemo.addClass( 'ztabtn ' );
-                            };
+                                importdemo.addClass( 'ztabtn ' );  
                         }
                 });
         },
