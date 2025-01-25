@@ -10,7 +10,7 @@
             </div>
             <hr>
             <div class="section">
-                <h3><?php _e('Why Upgrade?','oneline-lite'); ?></h3>
+                <h3><?php _e('Why Upgrade?','shopline'); ?></h3>
                 <p><?php _e('Upgrading to Shopper Line Premium you will unlock a dozen of unique features that will take your website to the next level. See in the  Comparison table for more details.','oneline-lite'); ?> </p>
 
                 <center><a class="button button-primary" target="_blank" href="https://themehunk.com/product/shopperline-pro//#tabfix"><?php _e('View Shopper Line Premium Demo','oneline-lite'); ?> </a></center>
