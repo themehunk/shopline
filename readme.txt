@@ -1,10 +1,9 @@
 === Theme: Shopline ===
 Contributors: ThemeHunk
 Tags: wide-blocks, block-patterns, block-styles, editor-style, right-sidebar, theme-options, custom-menu, custom-logo, editor-style, featured-images, translation-ready, flexible-header, full-width-template, threaded-comments, e-commerce, footer-widgets
-Requires at least: 4.8
+Requires PHP: 5.5
 Tested up to: 6.7
 Stable tag: 1.4.4
-Requires PHP: 5.4
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -27,7 +26,13 @@ Yes, all our theme works on multisite.
 == Changelog ==
 
 = Version: 1.4.4 =
-Fix: Security Issue Fixed.
+* Fix: Security Issue Fixed.
+* New: Vayu Blocks added in recommended plugins.
+* New: Theme added in new imprter.
+* Update: Welcome tab style issue updated.
+* New: Twitter share button added. 
+* Update: Video tab removed.
+* Update: Theme tested with new importer.
 
 = Version: 1.4.3 =
 New: Theme.json Added.
@@ -176,14 +181,14 @@ Theme Released
 
 == Upgrade Notice ==
 
-= Version: 1.4.3 =
-New: Theme.json Added.
-New: Theme made compatible with Block Editor.
-Update: Style Improved.
-New: Tags Added.
-New: Blank Template Added.
-New Editor.css Added.
-Update: Theme tested with latest WordPress 6.2.
+= Version: 1.4.4 =
+* Fix: Security Issue Fixed.
+* New: Vayu Blocks added in recommended plugins.
+* New: Theme added in new imprter.
+* Update: Welcome tab style issue updated.
+* New: Twitter share button added. 
+* Update: Video tab removed.
+* Update: Theme tested with new importer.
 
 
 == Resources ==
