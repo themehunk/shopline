@@ -5,7 +5,7 @@ Author: ThemeHunk
 Author URI: www.themehunk.com 
 Description: Shopline is a full featured E-commerce WordPress theme build specially for WooCommerce. This theme has a clean, modern and selling oriented design which is suitable for creating any type of online store, fashion website and many more. Theme comes with one click set up, Section hide option, Section ordering (drag & drop functionality), which makes it more user-friendly. It comes with advance features like typography with 250+ Google fonts, product category slider, product section with grid layout, Header background types (slider, image, video, gradient, color) for front page & Inner pages, testimonial widget and service widget, Unlimited color, Gradient overlay, SVG design for each section, Three column ad, Custom padding, Dynamic page width, Page builder and Contact page template. You can use your favourite page builder plugin available for WordPress (Like: SiteOrigin, Beaver Builder, Elementor and many more). Fully responsive and well documented theme. Theme has seven widget areas (Four for footer, two for sidebar (default pages) and one for shop page). Lead form builder is integrated, through which you can easily collect  leads and create subscription or contact form with unlimited fields. Theme is compatible with WooCommerce, Wishlist, bbPress, Contactform7 and with many other WP plugin.
 Here is theme demo link: http://themehunk.com/product/shopline-free-shopping-theme/, we also provide full support for our free products: http://themehunk.com/support/
-Version: 1.4.4
+Version: 1.4.5
 Requires at least: 5.5
 Tested up to: 6.7
 Requires PHP: 5.5
@@ -5947,6 +5947,7 @@ margin-left: 0px;
 }
 .sidebar {
     margin: 0px;
+}
 }
 @media screen and (max-width: 768px){
 .top-left {
