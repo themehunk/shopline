@@ -107,6 +107,11 @@ add_theme_support( 'wc-product-gallery-lightbox' );
                   'img' => 'icon-128x128.gif',
                  'active_filename' => 'th-product-compare/th-product-compare.php',
              ),
+            'th-wishlist' => array(
+                'name' => esc_html__( 'TH Wishlist for WooCommerce', 'shopline' ),
+                'img' => 'icon-128x128.gif',
+                'active_filename' => 'th-wishlist/th-wishlist.php',
+                ),
             'lead-form-builder' => array(
                 'name' => esc_html__( 'Lead Form Builder', 'shopline' ),
                  'img' => 'icon-128x128.png',
