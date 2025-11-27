@@ -2,15 +2,23 @@
 if ( ! function_exists( 'shopline_whishlist_url' ) ) {
 
 function shopline_whishlist_url(){
-    global $wpdb;
-$table = $wpdb->prefix.'posts';
-$search_query = "SELECT guid FROM $table WHERE post_type = 'page' 
-                  AND post_content LIKE %s LIMIT 1";
-$search  = '[yith_wcwl_wishlist]';
-$like    = '%'.$search.'%';
-$results = $wpdb->get_results($wpdb->prepare($search_query, $like), ARRAY_A);
-$url = (isset($results[0]['guid']))?$results[0]['guid']:'';
-return $url ;
+  if (shortcode_exists( 'thwl_add_to_wishlist' )) {
+    $wishlist_page_id = '';
+    $wishlist_page_id =  get_option( 'thwl_page_id' );
+    $wishlist_permalink = get_the_permalink( $wishlist_page_id );
+    return $wishlist_permalink;
+  }
+   elseif(shortcode_exists( 'yith_wcwl_add_to_wishlist' )){
+     global $wpdb;
+    $table = $wpdb->prefix.'posts';
+    $search_query = "SELECT guid FROM $table WHERE post_type = 'page' 
+                      AND post_content LIKE %s LIMIT 1";
+    $search  = '[yith_wcwl_wishlist]';
+    $like    = '%'.$search.'%';
+    $results = $wpdb->get_results($wpdb->prepare($search_query, $like), ARRAY_A);
+    $url = (isset($results[0]['guid']))?$results[0]['guid']:'';
+    return $url ;
+  }
 }
 
 }
@@ -224,8 +232,7 @@ function shopline_featured_products() {
 								</div>
 
 								<div class="yith-wcwl-add-button show">
-									<a href="" class="add_to_wishlist">
-									<i class="fas fa-heart"></i><span></span></a>
+									
 								</div>
 								<div class="quick-view">
 									<a href="<?php echo esc_url(get_permalink()); ?>" class="quickview yith-wcqv-button" data-product_id="<?php echo $featured_query->post->ID; ?>" style="zoom: 1;">
@@ -348,7 +355,7 @@ function shopline_woo_category_product_grid($productArr){
                           <span class="tooltiptext">Cart</span>
                           </div>
                           <div class="add_to_wishlist_a tooltip">
-                            '.shopline_whish_list().'
+                            '.shopline_whish_list($productArr['pid']).'
                             <span class="tooltiptext">Wishlist</span>
                             </div>
                            
@@ -746,8 +753,21 @@ endif;
 if ( ! function_exists( 'shopline_whish_list' ) ) :
 
   /** wishlist **/
-  function shopline_whish_list(){
-     if( shortcode_exists( 'yith_wcwl_add_to_wishlist' ) ) {
+  function shopline_whish_list($pid){
+
+   if( shortcode_exists( 'thwl_add_to_wishlist' )){
+        return do_shortcode('[thwl_add_to_wishlist 
+                product_id="' . esc_attr($pid) . '" 
+                add_icon="fas fa-heart" 
+                add_text="" 
+                add_browse_icon="fas fa-heart"
+                browse_text=""
+                theme_style="yes"
+                icon_style="icon_only_no_style"
+                custom_class="th-wishlist-integrated"
+              ]');
+       }
+     elseif( shortcode_exists( 'yith_wcwl_add_to_wishlist' ) ) {
         return do_shortcode('[yith_wcwl_add_to_wishlist icon="fas fa-heart" browse_wishlist_text=""]' );
       }
   }

@@ -164,3 +164,9 @@ if( !function_exists('shopline_mobile_user_agent_switch') ){
         }
     }
 }
+
+// To disable Wishlist button for loop button at shop page
+remove_action( 'wp', 'thwl_hook_wishlist_loop_button_position');
+
+// To disable Wishlist button for loop button at single page
+// remove_action( 'wp', 'thwl_hook_wishlist_single_button_position');
